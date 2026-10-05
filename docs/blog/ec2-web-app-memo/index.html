@@ -1,0 +1,358 @@
+<!DOCTYPE html><html lang="jp" data-astro-cid-z4jru4n3> <head><meta charset="utf-8"><meta name="description" content="Welcome to my portfolio and blog."><meta name="viewport" content="width=device-width"><meta name="generator" content="Astro v7.3.2"><link rel="icon" type="image/svg+xml" href="/_astro/ice.LDm2KaHz.svg"><title>null-torch web</title><link rel="stylesheet" href="/_astro/BaseLayout.q93E4WNH.css"><link rel="stylesheet" href="/_astro/_..BLFdu2km.css"></head> <body data-astro-cid-z4jru4n3> <div class="container" data-astro-cid-z4jru4n3> <header data-astro-cid-nen7h5rs> <nav class="container" data-astro-cid-nen7h5rs> <a href="/" class="header-logo" data-astro-cid-nen7h5rs>  <img src="/_astro/ice.LDm2KaHz_Z20jKRX.svg" alt="Ghosts that look like soft-serve ice cream" loading="eager" data-astro-cid-nen7h5rs="true" decoding="async" width="516" height="517" class="header-logo__image"> null-torch web </a> <ul class="header-links" data-astro-cid-nen7h5rs> <li data-astro-cid-nen7h5rs> <a href="/" class="header-links__link" data-astro-cid-nen7h5rs> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" data-astro-cid-nen7h5rs="true" class="lucide lucide-house icon icon-md"> <path d="M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8"></path><path d="M3 10a2 2 0 0 1 .709-1.528l7-6a2 2 0 0 1 2.582 0l7 6A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>  </svg> <span data-astro-cid-nen7h5rs>Home</span> </a> </li><li data-astro-cid-nen7h5rs> <a href="/projects" class="header-links__link" data-astro-cid-nen7h5rs> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" data-astro-cid-nen7h5rs="true" class="lucide lucide-briefcase icon icon-md"> <path d="M16 20V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path><rect width="20" height="14" x="2" y="6" rx="2"></rect>  </svg> <span data-astro-cid-nen7h5rs>Projects</span> </a> </li><li data-astro-cid-nen7h5rs> <a href="/blog" class="header-links__link" data-astro-cid-nen7h5rs> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" data-astro-cid-nen7h5rs="true" class="lucide lucide-book-open icon icon-md"> <path d="M12 5v16"></path><path d="M20.001 19A2 2 0 0022 17V5a2 2 0 00-1.999-2L16 3.002A5 5 0 0012 5a5 5 0 00-4-2H4a2 2 0 00-2 2v12a2 2 0 001.999 2H8a5 5 0 014 2 5 5 0 014-2z"></path>  </svg> <span data-astro-cid-nen7h5rs>Blog</span> </a> </li><li data-astro-cid-nen7h5rs> <a href="/about" class="header-links__link" data-astro-cid-nen7h5rs> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" data-astro-cid-nen7h5rs="true" class="lucide lucide-user icon icon-md"> <path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle>  </svg> <span data-astro-cid-nen7h5rs>About</span> </a> </li> </ul> </nav> </header> <main data-astro-cid-z4jru4n3>  <div class="article-layout" data-astro-cid-jo55ryrt> <nav class="table-of-contents" aria-label="目次" data-astro-cid-jo55ryrt> <h2 class="table-of-contents__title" data-astro-cid-jo55ryrt>目次</h2> <ol data-astro-cid-jo55ryrt> <li class="table-of-contents__item--h2" data-astro-cid-jo55ryrt> <a href="#概要" data-astro-cid-jo55ryrt>概要</a> </li><li class="table-of-contents__item--h2" data-astro-cid-jo55ryrt> <a href="#環境構築" data-astro-cid-jo55ryrt>環境構築</a> </li><li class="table-of-contents__item--h2" data-astro-cid-jo55ryrt> <a href="#webサーバ構築" data-astro-cid-jo55ryrt>Webサーバ構築</a> </li><li class="table-of-contents__item--h3" data-astro-cid-jo55ryrt> <a href="#nginxの設定" data-astro-cid-jo55ryrt>Nginxの設定</a> </li><li class="table-of-contents__item--h2" data-astro-cid-jo55ryrt> <a href="#postgresqlの設定" data-astro-cid-jo55ryrt>PostgreSQLの設定</a> </li><li class="table-of-contents__item--h3" data-astro-cid-jo55ryrt> <a href="#初期化" data-astro-cid-jo55ryrt>初期化</a> </li><li class="table-of-contents__item--h3" data-astro-cid-jo55ryrt> <a href="#サービス起動設定" data-astro-cid-jo55ryrt>サービス起動設定</a> </li><li class="table-of-contents__item--h3" data-astro-cid-jo55ryrt> <a href="#db作成" data-astro-cid-jo55ryrt>DB作成</a> </li><li class="table-of-contents__item--h2" data-astro-cid-jo55ryrt> <a href="#簡易的なwebアプリ作成" data-astro-cid-jo55ryrt>簡易的なWebアプリ作成</a> </li><li class="table-of-contents__item--h3" data-astro-cid-jo55ryrt> <a href="#djangoプロジェクトの作成" data-astro-cid-jo55ryrt>Djangoプロジェクトの作成</a> </li><li class="table-of-contents__item--h3" data-astro-cid-jo55ryrt> <a href="#gunicornを起動" data-astro-cid-jo55ryrt>gunicornを起動</a> </li><li class="table-of-contents__item--h3" data-astro-cid-jo55ryrt> <a href="#簡単なテスト" data-astro-cid-jo55ryrt>簡単なテスト</a> </li><li class="table-of-contents__item--h2" data-astro-cid-jo55ryrt> <a href="#簡単なapiの実装" data-astro-cid-jo55ryrt>簡単なAPIの実装</a> </li><li class="table-of-contents__item--h3" data-astro-cid-jo55ryrt> <a href="#apiのテスト" data-astro-cid-jo55ryrt>APIのテスト</a> </li><li class="table-of-contents__item--h2" data-astro-cid-jo55ryrt> <a href="#改善点など" data-astro-cid-jo55ryrt>改善点など</a> </li><li class="table-of-contents__item--h2" data-astro-cid-jo55ryrt> <a href="#注意" data-astro-cid-jo55ryrt>注意</a> </li><li class="table-of-contents__item--h2" data-astro-cid-jo55ryrt> <a href="#参考" data-astro-cid-jo55ryrt>参考</a> </li> </ol> </nav> <article data-astro-cid-jo55ryrt> <header class="post-header" data-astro-cid-jo55ryrt> <h1 data-astro-cid-jo55ryrt>AWS EC2 で web アプリを作成したメモ</h1> <div class="article-meta" data-astro-cid-jo55ryrt> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" data-astro-cid-jo55ryrt="true" class="lucide lucide-calendar icon icon-md"> <path d="M8 2v3"></path><path d="M16 2v3"></path><rect x="3" y="3" width="18" height="18" rx="2"></rect><path d="M3 9h18"></path>  </svg>
+公開日：
+<time data-astro-cid-jo55ryrt> 2024年3月25日 </time> </div> <div class="article-tags" data-astro-cid-jo55ryrt> <span class="article-tag" data-astro-cid-jo55ryrt>AWS</span><span class="article-tag" data-astro-cid-jo55ryrt>EC2</span><span class="article-tag" data-astro-cid-jo55ryrt>Python</span><span class="article-tag" data-astro-cid-jo55ryrt>Django</span><span class="article-tag" data-astro-cid-jo55ryrt>Gunicorn</span><span class="article-tag" data-astro-cid-jo55ryrt>Nginx</span><span class="article-tag" data-astro-cid-jo55ryrt>PostgreSQL</span> </div> </header> <div class="prose" data-astro-cid-jo55ryrt> <h2 id="概要">概要</h2>
+<p>AWS EC2+Nginx+gunicorn+Django+PostgreSQLでシンプルなwebアプリを作成したログ．
+以下の内容は，すでにAWS EC2へSSH接続していることを前提としている．</p>
+<h2 id="環境構築">環境構築</h2>
+<p>今回の記事で使用するパッケージなどのインストール方法をまとめて記載する．</p>
+<pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0" data-language="bash"><code><span class="line"><span style="color:#B392F0">sudo</span><span style="color:#9ECBFF"> yum</span><span style="color:#9ECBFF"> install</span><span style="color:#9ECBFF"> git</span></span>
+<span class="line"><span style="color:#B392F0">sudo</span><span style="color:#9ECBFF"> yum</span><span style="color:#9ECBFF"> install</span><span style="color:#9ECBFF"> openssl-devel</span></span>
+<span class="line"><span style="color:#B392F0">sudo</span><span style="color:#9ECBFF"> yum</span><span style="color:#9ECBFF"> install</span><span style="color:#9ECBFF"> python-psycopg2</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#B392F0">sudo</span><span style="color:#9ECBFF"> amazon-linux-extras</span><span style="color:#9ECBFF"> install</span><span style="color:#9ECBFF"> nginx1</span></span>
+<span class="line"><span style="color:#B392F0">sudo</span><span style="color:#9ECBFF"> amazon-linux-extras</span><span style="color:#9ECBFF"> install</span><span style="color:#9ECBFF"> postgresql14</span></span></code></pre>
+<p>Pythonのversionを管理するために，<code>pyenv</code>をインストールする．</p>
+<pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0" data-language="bash"><code><span class="line"><span style="color:#B392F0">git</span><span style="color:#9ECBFF"> clone</span><span style="color:#9ECBFF"> https://github.com/pyenv/pyenv.git</span><span style="color:#9ECBFF"> ~/.pyenv</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#79B8FF">echo</span><span style="color:#9ECBFF"> '# pyenv'</span><span style="color:#F97583"> >></span><span style="color:#9ECBFF"> ~/.bashrc</span></span>
+<span class="line"><span style="color:#79B8FF">echo</span><span style="color:#9ECBFF"> 'export PYENV_ROOT="$HOME/.pyenv"'</span><span style="color:#F97583"> >></span><span style="color:#9ECBFF"> ~/.bashrc</span></span>
+<span class="line"><span style="color:#79B8FF">echo</span><span style="color:#9ECBFF"> 'export PATH="$PYENV_ROOT/bin:$PATH"'</span><span style="color:#F97583"> >></span><span style="color:#9ECBFF"> ~/.bashrc</span></span>
+<span class="line"><span style="color:#79B8FF">echo</span><span style="color:#9ECBFF"> 'eval "$(pyenv init --path)"'</span><span style="color:#F97583"> >></span><span style="color:#9ECBFF"> ~/.bashrc</span></span>
+<span class="line"><span style="color:#79B8FF">source</span><span style="color:#9ECBFF"> .bashrc</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#B392F0">pyenv</span><span style="color:#79B8FF"> -v</span></span></code></pre>
+<p>出力例：</p>
+<pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0" data-language="txt" data-no-copy="true"><code><span class="line"><span>pyenv 2.3.6-15-g13d85686</span></span></code></pre>
+<p>プロジェクトディレクトリを作成する．
+Pythonバージョンを<code>3.9.13</code>とし，<code>venv</code>で仮想環境を作成する．</p>
+<pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0" data-language="bash"><code><span class="line"><span style="color:#B392F0">mkdir</span><span style="color:#9ECBFF"> ~/django_app</span></span>
+<span class="line"><span style="color:#79B8FF">cd</span><span style="color:#9ECBFF"> ~/django_app/</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#B392F0">pyenv</span><span style="color:#9ECBFF"> install</span><span style="color:#79B8FF"> 3.9.13</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#B392F0">python</span><span style="color:#79B8FF"> -V</span></span></code></pre>
+<p>Pythonのバージョンが<code>3.9.13</code>であることを確認する．</p>
+<pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0" data-language="txt" data-no-copy="true"><code><span class="line"><span>Python 3.9.13</span></span></code></pre>
+<p>仮想環境の設定をする．</p>
+<pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0" data-language="sh"><code><span class="line"><span style="color:#6A737D"># 仮想環境`venv`を作成する</span></span>
+<span class="line"><span style="color:#B392F0">python</span><span style="color:#79B8FF"> -m</span><span style="color:#9ECBFF"> venv</span><span style="color:#9ECBFF"> venv</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># 仮想環境に入る</span></span>
+<span class="line"><span style="color:#79B8FF">source</span><span style="color:#9ECBFF"> activate</span><span style="color:#9ECBFF"> venv/bin/activate</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># pipを最新バージョンに更新する</span></span>
+<span class="line"><span style="color:#B392F0">pip</span><span style="color:#9ECBFF"> install</span><span style="color:#79B8FF"> --upgrade</span><span style="color:#9ECBFF"> pip</span></span></code></pre>
+<p>pipで必要なpythonモジュールをインストールする．</p>
+<pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0" data-language="bash"><code><span class="line"><span style="color:#6A737D"># Djano関連</span></span>
+<span class="line"><span style="color:#B392F0">pip</span><span style="color:#9ECBFF"> install</span><span style="color:#9ECBFF"> django</span></span>
+<span class="line"><span style="color:#B392F0">pip</span><span style="color:#9ECBFF"> install</span><span style="color:#9ECBFF"> django-environ</span></span>
+<span class="line"><span style="color:#B392F0">pip</span><span style="color:#9ECBFF"> install</span><span style="color:#9ECBFF"> dj-database-url</span></span>
+<span class="line"><span style="color:#B392F0">pip</span><span style="color:#9ECBFF"> install</span><span style="color:#9ECBFF"> djangorestframework</span></span>
+<span class="line"><span style="color:#B392F0">pip</span><span style="color:#9ECBFF"> install</span><span style="color:#9ECBFF"> mojimoji</span></span>
+<span class="line"><span style="color:#6A737D"># PostgreSQL関連</span></span>
+<span class="line"><span style="color:#B392F0">pip</span><span style="color:#9ECBFF"> install</span><span style="color:#79B8FF"> -U</span><span style="color:#9ECBFF"> setuptools</span></span>
+<span class="line"><span style="color:#B392F0">pip</span><span style="color:#9ECBFF"> install</span><span style="color:#9ECBFF"> psycopg2</span></span>
+<span class="line"><span style="color:#6A737D"># Gunicorn</span></span>
+<span class="line"><span style="color:#B392F0">pip</span><span style="color:#9ECBFF"> install</span><span style="color:#9ECBFF"> gunicorn</span></span></code></pre>
+<h2 id="webサーバ構築">Webサーバ構築</h2>
+<p>WebサーバとしてNginxを利用する．</p>
+<pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0" data-language="bash"><code><span class="line"><span style="color:#6A737D"># バージョン確認</span></span>
+<span class="line"><span style="color:#B392F0">sudo</span><span style="color:#9ECBFF"> nginx</span><span style="color:#79B8FF"> -v</span></span></code></pre>
+<p>出力例：</p>
+<pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0" data-language="txt" data-no-copy="true"><code><span class="line"><span>nginx version: nginx/1.22.0</span></span></code></pre>
+<h3 id="nginxの設定">Nginxの設定</h3>
+<p>Nginxの初期設定ファイルのバックアップを取る</p>
+<pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0" data-language="bash"><code><span class="line"><span style="color:#B392F0">sudo</span><span style="color:#9ECBFF"> cp</span><span style="color:#79B8FF"> -a</span><span style="color:#9ECBFF"> /etc/nginx/nginx.conf</span><span style="color:#9ECBFF"> /etc/nginx/nginx.conf.backup</span></span></code></pre>
+<p>Nginxの通信データを<code>http://127.0.0.1:8000</code>へ送るように設定する．
+これにより，サーバの<code>80</code>番ポートに来たアクセスをDjango側へ転送できる．</p>
+<pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0" data-language="bash"><code><span class="line"><span style="color:#B392F0">sudo</span><span style="color:#9ECBFF"> vim</span><span style="color:#9ECBFF"> /etc/nginx/nginx.conf</span></span></code></pre>
+<p>以下のように記述．</p>
+<pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0" data-language="nginx" data-filename="/etc/nginx/nginx.conf"><code><span class="line"><span style="color:#E1E4E8">~</span></span>
+<span class="line"><span style="color:#E1E4E8">http{</span></span>
+<span class="line"><span style="color:#E1E4E8">  ~</span></span>
+<span class="line"><span style="color:#E1E4E8">  server{</span></span>
+<span class="line"><span style="color:#E1E4E8">    ~</span></span>
+<span class="line"><span style="color:#F97583">    location</span><span style="color:#B392F0"> / </span><span style="color:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#6A737D">      # `http://xx.xx.xx.xx/`へ来たアクセスをDjango側へ転送する.</span></span>
+<span class="line"><span style="color:#F97583">      proxy_set_header </span><span style="color:#E1E4E8">Host $http_host;                                   </span><span style="color:#6A737D"># host name</span></span>
+<span class="line"><span style="color:#F97583">      proxy_set_header </span><span style="color:#E1E4E8">X-Forwarded-For $proxy_add_x_forwarded_for;        </span><span style="color:#6A737D"># source address</span></span>
+<span class="line"><span style="color:#F97583">      proxy_set_header </span><span style="color:#E1E4E8">X_Forwarded-Proto $scheme;                         </span><span style="color:#6A737D"># URL scheme</span></span>
+<span class="line"><span style="color:#6A737D">      # localhostの8000番ポートへ転送する.</span></span>
+<span class="line"><span style="color:#F97583">      proxy_pass </span><span style="color:#E1E4E8">http://127.0.0.1:8000;</span></span>
+<span class="line"><span style="color:#E1E4E8">    }</span></span>
+<span class="line"><span style="color:#6A737D">    # ここまで</span></span>
+<span class="line"><span style="color:#E1E4E8">    ~</span></span>
+<span class="line"><span style="color:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#E1E4E8">  ~</span></span>
+<span class="line"><span style="color:#E1E4E8">}</span></span>
+<span class="line"><span style="color:#E1E4E8">~</span></span></code></pre>
+<p>Nginxを起動する.</p>
+<pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0" data-language="bash"><code><span class="line"><span style="color:#B392F0">sudo</span><span style="color:#9ECBFF"> systemctl</span><span style="color:#9ECBFF"> start</span><span style="color:#9ECBFF"> nginx</span></span></code></pre>
+<p>インスタンス起動時にNginxも自動で起動させる.</p>
+<pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0" data-language="bash"><code><span class="line"><span style="color:#B392F0">sudo</span><span style="color:#9ECBFF"> systemctl</span><span style="color:#9ECBFF"> enable</span><span style="color:#9ECBFF"> nginx</span></span></code></pre>
+<p>出力例：</p>
+<pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0" data-language="txt" data-no-copy="true"><code><span class="line"><span>Created symlink from /etc/systemd/system/multi-user.target.wants/nginx.service to /usr/lib/systemd/system/nginx.service.</span></span></code></pre>
+<p>サービスステータス表示する.</p>
+<pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0" data-language="bash"><code><span class="line"><span style="color:#B392F0">systemctl</span><span style="color:#9ECBFF"> status</span><span style="color:#9ECBFF"> nginx</span></span></code></pre>
+<p>出力例：</p>
+<pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0" data-language="sh" data-no-copy="true"><code><span class="line"><span style="color:#B392F0">●</span><span style="color:#9ECBFF"> nginx.service</span><span style="color:#9ECBFF"> -</span><span style="color:#9ECBFF"> The</span><span style="color:#9ECBFF"> nginx</span><span style="color:#9ECBFF"> HTTP</span><span style="color:#9ECBFF"> and</span><span style="color:#9ECBFF"> reverse</span><span style="color:#9ECBFF"> proxy</span><span style="color:#9ECBFF"> server</span></span>
+<span class="line"><span style="color:#B392F0">   Loaded:</span><span style="color:#9ECBFF"> loaded</span><span style="color:#E1E4E8"> (/usr/lib/systemd/system/nginx.service; </span><span style="color:#B392F0">enabled</span><span style="color:#E1E4E8">; </span><span style="color:#B392F0">vendor</span><span style="color:#9ECBFF"> preset:</span><span style="color:#9ECBFF"> disabled</span><span style="color:#E1E4E8">)</span></span>
+<span class="line"><span style="color:#B392F0">   Active:</span><span style="color:#9ECBFF"> active</span><span style="color:#E1E4E8"> (running) since {</span><span style="color:#B392F0">DayOfWeek}</span><span style="color:#9ECBFF"> {Year}-{Month}-{Day}</span><span style="color:#9ECBFF"> {Hour}:{Minute}:{Seconds}</span><span style="color:#9ECBFF"> UTC</span><span style="color:#E1E4E8">; </span><span style="color:#B392F0">28s</span><span style="color:#9ECBFF"> ago</span></span>
+<span class="line"><span style="color:#B392F0"> Main</span><span style="color:#9ECBFF"> PID:</span><span style="color:#79B8FF"> 26497</span><span style="color:#E1E4E8"> (nginx)</span></span>
+<span class="line"><span style="color:#B392F0">   CGroup:</span><span style="color:#9ECBFF"> /system.slice/nginx.service</span></span>
+<span class="line"><span style="color:#B392F0">           ├─26497</span><span style="color:#9ECBFF"> nginx:</span><span style="color:#9ECBFF"> master</span><span style="color:#9ECBFF"> process</span><span style="color:#9ECBFF"> /usr/sbin/nginx</span></span>
+<span class="line"><span style="color:#B392F0">           ├─26498</span><span style="color:#9ECBFF"> nginx:</span><span style="color:#9ECBFF"> worker</span><span style="color:#9ECBFF"> process</span></span>
+<span class="line"><span style="color:#B392F0">           └─26499</span><span style="color:#9ECBFF"> nginx:</span><span style="color:#9ECBFF"> worker</span><span style="color:#9ECBFF"> process</span></span></code></pre>
+<h2 id="postgresqlの設定">PostgreSQLの設定</h2>
+<p>Djangoアプリケーションで利用するためのDBを構築する．</p>
+<h3 id="初期化">初期化</h3>
+<p>まず，データベースサーバを初期化する.</p>
+<pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0" data-language="bash"><code><span class="line"><span style="color:#B392F0">sudo</span><span style="color:#9ECBFF"> /sbin/service</span><span style="color:#9ECBFF"> postgresql</span><span style="color:#9ECBFF"> initdb</span></span></code></pre>
+<p>出力例：</p>
+<pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0" data-language="txt" data-no-copy="true"><code><span class="line"><span>Hint: the preferred way to do this is now "postgresql-setup initdb"</span></span>
+<span class="line"><span>Initializing database ... OK</span></span></code></pre>
+<h3 id="サービス起動設定">サービス起動設定</h3>
+<p>今回の記事では，サーバ内でDBサーバを構築する方法を取った．
+データベースサーバを起動する．</p>
+<pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0" data-language="bash"><code><span class="line"><span style="color:#B392F0">sudo</span><span style="color:#9ECBFF"> /sbin/service</span><span style="color:#9ECBFF"> postgresql</span><span style="color:#9ECBFF"> start</span></span>
+<span class="line"><span style="color:#B392F0">sudo</span><span style="color:#9ECBFF"> systemctl</span><span style="color:#9ECBFF"> status</span><span style="color:#9ECBFF"> postgresql</span></span></code></pre>
+<p>出力例：</p>
+<pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0" data-language="sh" data-no-copy="true"><code><span class="line"><span style="color:#B392F0">●</span><span style="color:#9ECBFF"> postgresql.service</span><span style="color:#9ECBFF"> -</span><span style="color:#9ECBFF"> PostgreSQL</span><span style="color:#9ECBFF"> database</span><span style="color:#9ECBFF"> server</span></span>
+<span class="line"><span style="color:#B392F0">   Loaded:</span><span style="color:#9ECBFF"> loaded</span><span style="color:#E1E4E8"> (/usr/lib/systemd/system/postgresql.service; </span><span style="color:#B392F0">disabled</span><span style="color:#E1E4E8">; </span><span style="color:#B392F0">vendor</span><span style="color:#9ECBFF"> preset:</span><span style="color:#9ECBFF"> disabled</span><span style="color:#E1E4E8">)</span></span>
+<span class="line"><span style="color:#B392F0">   Active:</span><span style="color:#9ECBFF"> active</span><span style="color:#E1E4E8"> (running) since </span><span style="color:#F97583">**</span><span style="color:#F97583"> **</span><span style="color:#E1E4E8">-</span><span style="color:#F97583">**</span><span style="color:#E1E4E8">-</span><span style="color:#F97583">**</span><span style="color:#F97583"> **</span><span style="color:#E1E4E8">:</span><span style="color:#F97583">**</span><span style="color:#E1E4E8">:</span><span style="color:#F97583">**</span><span style="color:#E1E4E8"> UTC; </span><span style="color:#B392F0">**min</span><span style="color:#79B8FF"> **</span><span style="color:#9ECBFF">s</span><span style="color:#9ECBFF"> ago</span></span>
+<span class="line"><span style="color:#B392F0">  Process:</span><span style="color:#79B8FF"> 9585</span><span style="color:#9ECBFF"> ExecStart=/usr/bin/pg_ctl</span><span style="color:#9ECBFF"> start</span><span style="color:#79B8FF"> -D</span><span style="color:#E1E4E8"> ${PGDATA} </span><span style="color:#79B8FF">-s</span><span style="color:#79B8FF"> -o</span><span style="color:#79B8FF"> -p</span><span style="color:#E1E4E8"> ${PGPORT} </span><span style="color:#79B8FF">-w</span><span style="color:#79B8FF"> -t</span><span style="color:#79B8FF"> 300</span><span style="color:#E1E4E8"> (code=exited, </span><span style="color:#9ECBFF">status=0/SUCCESS</span><span style="color:#E1E4E8">)</span></span>
+<span class="line"><span style="color:#B392F0">  Process:</span><span style="color:#79B8FF"> 9580</span><span style="color:#9ECBFF"> ExecStartPre=/usr/bin/postgresql-check-db-dir</span><span style="color:#E1E4E8"> ${PGDATA} (code=exited, </span><span style="color:#9ECBFF">status=0/SUCCESS</span><span style="color:#E1E4E8">)</span></span>
+<span class="line"><span style="color:#B392F0"> Main</span><span style="color:#9ECBFF"> PID:</span><span style="color:#79B8FF"> 9589</span><span style="color:#E1E4E8"> (postgres)</span></span>
+<span class="line"><span style="color:#B392F0">   CGroup:</span><span style="color:#9ECBFF"> /system.slice/postgresql.service</span></span>
+<span class="line"><span style="color:#B392F0">           ├─9589</span><span style="color:#9ECBFF"> /usr/bin/postgres</span><span style="color:#79B8FF"> -D</span><span style="color:#9ECBFF"> /var/lib/pgsql/data</span><span style="color:#79B8FF"> -p</span><span style="color:#79B8FF"> 5432</span></span>
+<span class="line"><span style="color:#B392F0">           ├─9590</span><span style="color:#9ECBFF"> postgres:</span><span style="color:#9ECBFF"> logger</span><span style="color:#9ECBFF"> process</span></span>
+<span class="line"><span style="color:#B392F0">           ├─9592</span><span style="color:#9ECBFF"> postgres:</span><span style="color:#9ECBFF"> checkpointer</span><span style="color:#9ECBFF"> process</span></span>
+<span class="line"><span style="color:#B392F0">           ├─9593</span><span style="color:#9ECBFF"> postgres:</span><span style="color:#9ECBFF"> writer</span><span style="color:#9ECBFF"> process</span></span>
+<span class="line"><span style="color:#B392F0">           ├─9594</span><span style="color:#9ECBFF"> postgres:</span><span style="color:#9ECBFF"> wal</span><span style="color:#9ECBFF"> writer</span><span style="color:#9ECBFF"> process</span></span>
+<span class="line"><span style="color:#B392F0">           ├─9595</span><span style="color:#9ECBFF"> postgres:</span><span style="color:#9ECBFF"> autovacuum</span><span style="color:#9ECBFF"> launcher</span><span style="color:#9ECBFF"> process</span></span>
+<span class="line"><span style="color:#B392F0">           └─9596</span><span style="color:#9ECBFF"> postgres:</span><span style="color:#9ECBFF"> stats</span><span style="color:#9ECBFF"> collector</span><span style="color:#9ECBFF"> process</span></span></code></pre>
+<p>自動起動設定をする．</p>
+<pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0" data-language="bash"><code><span class="line"><span style="color:#B392F0">sudo</span><span style="color:#9ECBFF"> systemctl</span><span style="color:#9ECBFF"> enable</span><span style="color:#9ECBFF"> postgresql</span></span></code></pre>
+<p>出力例：</p>
+<pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0" data-language="txt" data-no-copy="true"><code><span class="line"><span>Created symlink from /etc/systemd/system/multi-user.target.wants/postgresql.service to /usr/lib/systemd/system/postgresql.service.</span></span></code></pre>
+<h3 id="db作成">DB作成</h3>
+<p>Djangoアプリが利用するDBを作成する．</p>
+<pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0" data-language="bash"><code><span class="line"><span style="color:#B392F0">sudo</span><span style="color:#79B8FF"> -u</span><span style="color:#9ECBFF"> postgres</span><span style="color:#9ECBFF"> psql</span></span></code></pre>
+<p>出力例：</p>
+<pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0" data-language="sql" data-no-copy="true"><code><span class="line"><span style="color:#E1E4E8">psql (</span><span style="color:#79B8FF">9</span><span style="color:#E1E4E8">.</span><span style="color:#79B8FF">2</span><span style="color:#E1E4E8">.</span><span style="color:#79B8FF">24</span><span style="color:#E1E4E8">)</span></span>
+<span class="line"><span style="color:#F97583">Type</span><span style="color:#9ECBFF"> "help"</span><span style="color:#F97583"> for</span><span style="color:#E1E4E8"> help.</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#E1E4E8">postgres</span><span style="color:#F97583">=</span><span style="color:#E1E4E8">#</span></span></code></pre>
+<p>以下のように入力し，DBを作成した．</p>
+<pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0" data-language="sql"><code><span class="line"><span style="color:#6A737D">-- 新規にDBを作成する．</span></span>
+<span class="line"><span style="color:#E1E4E8">postgres</span><span style="color:#F97583">=</span><span style="color:#E1E4E8"># </span><span style="color:#F97583">CREATE</span><span style="color:#F97583"> DATABASE</span><span style="color:#E1E4E8"> djangodb;</span></span>
+<span class="line"><span style="color:#F97583">CREATE</span><span style="color:#F97583"> DATABASE</span></span>
+<span class="line"><span style="color:#6A737D">-- ユーザ名とパスワードを設定する．</span></span>
+<span class="line"><span style="color:#E1E4E8">postgres</span><span style="color:#F97583">=</span><span style="color:#E1E4E8"># </span><span style="color:#F97583">CREATE</span><span style="color:#E1E4E8"> USER django </span><span style="color:#F97583">WITH</span><span style="color:#F97583"> PASSWORD</span><span style="color:#9ECBFF"> '****'</span><span style="color:#E1E4E8">;</span></span>
+<span class="line"><span style="color:#F97583">CREATE</span><span style="color:#F97583"> ROLE</span></span>
+<span class="line"><span style="color:#6A737D">-- 文字コードを`UTF-8`にする．</span></span>
+<span class="line"><span style="color:#E1E4E8">postgres</span><span style="color:#F97583">=</span><span style="color:#E1E4E8"># </span><span style="color:#F97583">ALTER</span><span style="color:#F97583"> ROLE</span><span style="color:#E1E4E8"> django </span><span style="color:#F97583">SET</span><span style="color:#E1E4E8"> client_encoding </span><span style="color:#F97583">TO</span><span style="color:#9ECBFF"> 'utf8'</span><span style="color:#E1E4E8">;</span></span>
+<span class="line"><span style="color:#F97583">ALTER</span><span style="color:#F97583"> ROLE</span></span>
+<span class="line"><span style="color:#6A737D">-- トランザクション分離レベルを設定する．</span></span>
+<span class="line"><span style="color:#E1E4E8">postgres</span><span style="color:#F97583">=</span><span style="color:#E1E4E8"># </span><span style="color:#F97583">ALTER</span><span style="color:#F97583"> ROLE</span><span style="color:#E1E4E8"> django </span><span style="color:#F97583">SET</span><span style="color:#E1E4E8"> default_transaction_isolation </span><span style="color:#F97583">TO</span><span style="color:#9ECBFF"> 'read committed'</span><span style="color:#E1E4E8">;</span></span>
+<span class="line"><span style="color:#F97583">ALTER</span><span style="color:#F97583"> ROLE</span></span>
+<span class="line"><span style="color:#6A737D">-- タイムゾーンを東京/日本とする．</span></span>
+<span class="line"><span style="color:#E1E4E8">postgres</span><span style="color:#F97583">=</span><span style="color:#E1E4E8"># </span><span style="color:#F97583">ALTER</span><span style="color:#F97583"> ROLE</span><span style="color:#E1E4E8"> django </span><span style="color:#F97583">SET</span><span style="color:#E1E4E8"> timezone </span><span style="color:#F97583">TO</span><span style="color:#9ECBFF"> 'UTC+9'</span><span style="color:#E1E4E8">;</span></span>
+<span class="line"><span style="color:#F97583">ALTER</span><span style="color:#F97583"> ROLE</span></span>
+<span class="line"><span style="color:#6A737D">-- `django`ユーザにDBの全ての権限を付与する．</span></span>
+<span class="line"><span style="color:#E1E4E8">postgres</span><span style="color:#F97583">=</span><span style="color:#E1E4E8"># </span><span style="color:#F97583">GRANT</span><span style="color:#E1E4E8"> ALL PRIVILEGES </span><span style="color:#F97583">ON</span><span style="color:#F97583"> DATABASE</span><span style="color:#E1E4E8"> djangodb </span><span style="color:#F97583">TO</span><span style="color:#E1E4E8"> django;</span></span>
+<span class="line"><span style="color:#F97583">GRANT</span></span>
+<span class="line"><span style="color:#6A737D">-- psqlを修了する．</span></span>
+<span class="line"><span style="color:#E1E4E8">postgres</span><span style="color:#F97583">-</span><span style="color:#E1E4E8"># \q</span></span></code></pre>
+<p>postgresqlの設定ファイルのバックアップを取り，認証方法を変更する．</p>
+<pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0" data-language="bash"><code><span class="line"><span style="color:#6A737D"># 既存の設定ファイルの名前の末尾に.backupを付与</span></span>
+<span class="line"><span style="color:#B392F0">sudo</span><span style="color:#9ECBFF"> cp</span><span style="color:#9ECBFF"> /var/lib/pgsql/data/pg_hba.conf</span><span style="color:#9ECBFF"> /var/lib/pgsql/data/pg_hba.conf.backup</span></span>
+<span class="line"><span style="color:#6A737D"># 設定ファイルを編集</span></span>
+<span class="line"><span style="color:#B392F0">sudo</span><span style="color:#9ECBFF"> vim</span><span style="color:#9ECBFF"> /var/lib/pgsql/data/pg_hba.conf</span></span></code></pre>
+<p>変更箇所は以下の通り．認証方法を<code>ident</code>から<code>md5</code>へ変更する．</p>
+<pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0" data-language="nginx"><code><span class="line"><span style="color:#6A737D"># TYPE  DATABASE        USER            ADDRESS                 METHOD</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># "local" is for Unix domain socket connections only</span></span>
+<span class="line"><span style="color:#F97583">local</span><span style="color:#79B8FF">   all</span><span style="color:#79B8FF">             all</span><span style="color:#E1E4E8">                                     peer</span></span>
+<span class="line"><span style="color:#6A737D"># IPv4 local connections:</span></span>
+<span class="line"><span style="color:#F97583">host</span><span style="color:#79B8FF">    all</span><span style="color:#79B8FF">             all</span><span style="color:#E1E4E8">             127.0.0.1/32            md5  </span><span style="color:#6A737D"># &#x3C;-- here!</span></span>
+<span class="line"><span style="color:#6A737D"># IPv6 local connections:</span></span>
+<span class="line"><span style="color:#F97583">host</span><span style="color:#79B8FF">    all</span><span style="color:#79B8FF">             all</span><span style="color:#E1E4E8">             ::1/128                 md5  </span><span style="color:#6A737D"># &#x3C;-- here!</span></span>
+<span class="line"><span style="color:#6A737D"># Allow replication connections from localhost, by a user with the</span></span>
+<span class="line"><span style="color:#6A737D"># replication privilege.</span></span>
+<span class="line"><span style="color:#F97583">local</span><span style="color:#E1E4E8">   replication     postgres                                peer</span></span>
+<span class="line"><span style="color:#F97583">host</span><span style="color:#E1E4E8">    replication     postgres        127.0.0.1/32            ident</span></span>
+<span class="line"><span style="color:#F97583">host</span><span style="color:#E1E4E8">    replication     postgres        ::1/128                 ident</span></span></code></pre>
+<p>設定ファイルの変更を適用するため，serviceを再起動する．</p>
+<pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0" data-language="bash"><code><span class="line"><span style="color:#B392F0">sudo</span><span style="color:#9ECBFF"> systemctl</span><span style="color:#9ECBFF"> restart</span><span style="color:#9ECBFF"> postgresql</span></span></code></pre>
+<h2 id="簡易的なwebアプリ作成">簡易的なWebアプリ作成</h2>
+<h3 id="djangoプロジェクトの作成">Djangoプロジェクトの作成</h3>
+<p>Djanoでプロジェクトを作成する．</p>
+<pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0" data-language="bash"><code><span class="line"><span style="color:#79B8FF">cd</span><span style="color:#9ECBFF"> ~/django_app/</span></span>
+<span class="line"><span style="color:#B392F0">django-admin</span><span style="color:#9ECBFF"> startproject</span><span style="color:#9ECBFF"> website</span><span style="color:#9ECBFF"> .</span></span></code></pre>
+<p><code>~/django_app/website/settings.py</code>を修正する．</p>
+<pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0" data-language="python" data-filename="~/django_app/website/settings.py"><code><span class="line"><span style="color:#6A737D"># DBへのパス</span></span>
+<span class="line"><span style="color:#79B8FF">DATABASE_URL</span><span style="color:#F97583">=</span><span style="color:#E1E4E8">postgres:</span><span style="color:#F97583">//</span><span style="color:#E1E4E8">django:{password}</span><span style="color:#F97583">@</span><span style="color:#E1E4E8">localhost:</span><span style="color:#F97583">/</span><span style="color:#E1E4E8">djangodb</span></span>
+<span class="line"><span style="color:#6A737D"># アクセスを許可するホスト</span></span>
+<span class="line"><span style="color:#79B8FF">ALLOWED_HOSTS</span><span style="color:#F97583">=</span><span style="color:#E1E4E8">{Your </span><span style="color:#79B8FF">IP</span><span style="color:#E1E4E8">},localhost,</span><span style="color:#79B8FF">127.0</span><span style="color:#E1E4E8">.0.1</span></span>
+<span class="line"><span style="color:#6A737D"># URLの末尾に`/`がない時，`/`を付けたURLへリダイレクトしない</span></span>
+<span class="line"><span style="color:#79B8FF">APPEND_SLASH</span><span style="color:#F97583">=</span><span style="color:#79B8FF">False</span></span>
+<span class="line"><span style="color:#6A737D"># タイムゾーンを日本に設定</span></span>
+<span class="line"><span style="color:#79B8FF">TIME_ZONE</span><span style="color:#F97583"> =</span><span style="color:#9ECBFF"> 'Asia/Tokyo'</span></span>
+<span class="line"><span style="color:#6A737D"># 日本語</span></span>
+<span class="line"><span style="color:#79B8FF">LANGUAGE_CODE</span><span style="color:#F97583"> =</span><span style="color:#9ECBFF"> 'ja'</span></span>
+<span class="line"><span style="color:#6A737D"># 静的ファイルが集約されるパス</span></span>
+<span class="line"><span style="color:#79B8FF">STATIC_ROOT</span><span style="color:#F97583"> =</span><span style="color:#E1E4E8"> os.path.join(</span><span style="color:#79B8FF">BASE_DIR</span><span style="color:#E1E4E8">, </span><span style="color:#9ECBFF">'static'</span><span style="color:#E1E4E8">)</span></span></code></pre>
+<h3 id="gunicornを起動">gunicornを起動</h3>
+<ul>
+<li>gunicornを起動する．
+<ul>
+<li><code>127.0.0.1:8000</code>をバインドし，Nginxからのデータを受け取る．</li>
+<li>Djangoプロジェクトのwsgi設定ファイル<code>~/django_app/website/wsgi.py</code>を指定する．</li>
+<li>バックグラウンドで実行する．</li>
+</ul>
+</li>
+</ul>
+<pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0" data-language="bash"><code><span class="line"><span style="color:#6A737D"># Djangoプロジェクトのrootに移動する</span></span>
+<span class="line"><span style="color:#79B8FF">cd</span><span style="color:#9ECBFF"> ~/django_app/</span></span>
+<span class="line"><span style="color:#6A737D"># 仮想環境に入る(既に入っていたら必要なし)</span></span>
+<span class="line"><span style="color:#79B8FF">source</span><span style="color:#9ECBFF"> venv/bin/activate</span></span>
+<span class="line"><span style="color:#6A737D"># gunicorn起動</span></span>
+<span class="line"><span style="color:#B392F0">gunicorn</span><span style="color:#79B8FF"> --bind</span><span style="color:#9ECBFF"> 127.0.0.1:8000</span><span style="color:#9ECBFF"> website.wsgi</span><span style="color:#79B8FF"> -D</span></span></code></pre>
+<h3 id="簡単なテスト">簡単なテスト</h3>
+<p>現在，EC2のIPアドレスへHTTPリクエストを送信すると，ポート<code>80</code>でリクエストを受信したNginxがローカルホストのポート<code>8000</code>へデータを転送し，gunicornが転送されてきたデータを<code>django_app</code>のwsgiに紐づけて，Djangoアプリがリクエストを処理する，という仕組みになっている．</p>
+<p>試しに，別のホストから<code>curl</code>でEC2サーバにHTTP GETリクエストを送信してみる．</p>
+<pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0" data-language="bash"><code><span class="line"><span style="color:#B392F0">curl</span><span style="color:#9ECBFF"> http://{Your_EC2_IP}/</span></span></code></pre>
+<p>レスポンスとして，Djangoのロケットのページを見ることができる．</p>
+<h2 id="簡単なapiの実装">簡単なAPIの実装</h2>
+<p>今回は，DBへのデータの登録と呼び出し，削除機能を実装する．</p>
+<p>まず，API実装のための<code>rest_framework</code>をプロジェクトへ追加する．<code>~/django_app/website/settings.py</code>を編集する．</p>
+<pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0" data-language="python" data-filename="~/django_app/website/settings.py"><code><span class="line"><span style="color:#79B8FF">INSTALLED_APPS</span><span style="color:#F97583"> =</span><span style="color:#E1E4E8"> [</span></span>
+<span class="line"><span style="color:#79B8FF">  ...</span></span>
+<span class="line"><span style="color:#9ECBFF">  'rest_framework'</span><span style="color:#E1E4E8">, </span><span style="color:#6A737D">#new</span></span>
+<span class="line"><span style="color:#E1E4E8">]</span></span></code></pre>
+<p>DB操作を実現するためのアプリを作成する．</p>
+<ul>
+<li>アプリ名：<code>crud_app</code></li>
+</ul>
+<pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0" data-language="bash"><code><span class="line"><span style="color:#B392F0">python</span><span style="color:#9ECBFF"> manage.py</span><span style="color:#9ECBFF"> startapp</span><span style="color:#9ECBFF"> crud_app</span></span></code></pre>
+<p>新規にアプリを作成したため，<code>~/django_app/website/settings.py</code>へ追記する．</p>
+<pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0" data-language="python" data-filename="~/django_app/website/settings.py"><code><span class="line"><span style="color:#79B8FF">INSTALLED_APPS</span><span style="color:#F97583"> =</span><span style="color:#E1E4E8"> [</span></span>
+<span class="line"><span style="color:#79B8FF">   ...</span></span>
+<span class="line"><span style="color:#9ECBFF">    'rest_framework'</span><span style="color:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#9ECBFF">    'crud_app'</span><span style="color:#E1E4E8">, </span><span style="color:#6A737D">#new</span></span>
+<span class="line"><span style="color:#E1E4E8">]</span></span></code></pre>
+<p>今回は，以下に示す簡易的なテーブルを作成する．</p>
+<pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0" data-language="txt"><code><span class="line"><span>テストテーブル</span></span>
+<span class="line"><span>-----------------</span></span>
+<span class="line"><span>名前      (char)</span></span>
+<span class="line"><span>数量      (int)</span></span>
+<span class="line"><span>作成日時   (date)</span></span></code></pre>
+<p><code>~/django_app/crud_app/models.py</code>を以下のように記載し，DBモデルを作成する．</p>
+<pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0" data-language="python" data-filename="~/django_app/crud_app/models.py"><code><span class="line"><span style="color:#F97583">from</span><span style="color:#E1E4E8"> django.db </span><span style="color:#F97583">import</span><span style="color:#E1E4E8"> models</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#F97583">class</span><span style="color:#B392F0"> DjangoModel</span><span style="color:#E1E4E8">(</span><span style="color:#B392F0">models</span><span style="color:#E1E4E8">.</span><span style="color:#B392F0">Model</span><span style="color:#E1E4E8">):</span></span>
+<span class="line"><span style="color:#E1E4E8">    name    </span><span style="color:#F97583">=</span><span style="color:#E1E4E8"> models.CharField(</span><span style="color:#9ECBFF">"Name"</span><span style="color:#E1E4E8">, </span><span style="color:#FFAB70">max_length</span><span style="color:#F97583">=</span><span style="color:#79B8FF">240</span><span style="color:#E1E4E8">)  </span><span style="color:#6A737D"># 名前</span></span>
+<span class="line"><span style="color:#E1E4E8">    amount  </span><span style="color:#F97583">=</span><span style="color:#E1E4E8"> models.IntegerField(</span><span style="color:#9ECBFF">"Amount"</span><span style="color:#E1E4E8">, </span><span style="color:#FFAB70">default</span><span style="color:#F97583">=</span><span style="color:#79B8FF">1</span><span style="color:#E1E4E8">)  </span><span style="color:#6A737D"># 数量</span></span>
+<span class="line"><span style="color:#E1E4E8">    created </span><span style="color:#F97583">=</span><span style="color:#E1E4E8"> models.DateField(</span><span style="color:#FFAB70">auto_now_add</span><span style="color:#F97583">=</span><span style="color:#79B8FF">True</span><span style="color:#E1E4E8">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#F97583">    def</span><span style="color:#79B8FF"> __str__</span><span style="color:#E1E4E8">(self):</span></span>
+<span class="line"><span style="color:#F97583">        return</span><span style="color:#79B8FF"> self</span><span style="color:#E1E4E8">.name</span></span></code></pre>
+<p>プロジェクトのrootで，マイグレーションを適用し，dbカラムを作成する．</p>
+<pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0" data-language="bash"><code><span class="line"><span style="color:#B392F0">python</span><span style="color:#9ECBFF"> manage.py</span><span style="color:#9ECBFF"> makemigrations</span></span>
+<span class="line"><span style="color:#B392F0">python</span><span style="color:#9ECBFF"> manage.py</span><span style="color:#9ECBFF"> migrate</span></span></code></pre>
+<p><code>~/django_app/crud_app/views.py</code>を編集し，リクエストに応じてDBを操作する．</p>
+<pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0" data-language="python" data-filename="~/django_app/crud_app/views.py"><code><span class="line"><span style="color:#F97583">from</span><span style="color:#E1E4E8"> django.views.decorators.csrf </span><span style="color:#F97583">import</span><span style="color:#E1E4E8"> csrf_exempt</span></span>
+<span class="line"><span style="color:#F97583">from</span><span style="color:#E1E4E8"> django.http </span><span style="color:#F97583">import</span><span style="color:#E1E4E8"> HttpResponse</span></span>
+<span class="line"><span style="color:#F97583">from</span><span style="color:#E1E4E8"> django.http.response </span><span style="color:#F97583">import</span><span style="color:#E1E4E8"> JsonResponse</span></span>
+<span class="line"><span style="color:#F97583">import</span><span style="color:#E1E4E8"> json</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#F97583">from</span><span style="color:#E1E4E8"> .models </span><span style="color:#F97583">import</span><span style="color:#E1E4E8"> DjangoModel</span></span>
+<span class="line"></span>
+<span class="line"></span>
+<span class="line"><span style="color:#B392F0">@csrf_exempt</span></span>
+<span class="line"><span style="color:#F97583">def</span><span style="color:#B392F0"> control_data</span><span style="color:#E1E4E8">(request):</span></span>
+<span class="line"><span style="color:#9ECBFF">    """データの新規作成，確認，削除を行うインターフェース"""</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D">    # 確認</span></span>
+<span class="line"><span style="color:#F97583">    if</span><span style="color:#E1E4E8"> request.method </span><span style="color:#F97583">==</span><span style="color:#9ECBFF"> 'GET'</span><span style="color:#E1E4E8">:</span></span>
+<span class="line"><span style="color:#6A737D">        # `name`で昇順にソートし，全件取得</span></span>
+<span class="line"><span style="color:#E1E4E8">        models </span><span style="color:#F97583">=</span><span style="color:#E1E4E8"> DjangoModel.objects.order_by(</span><span style="color:#9ECBFF">'name'</span><span style="color:#E1E4E8">)</span></span>
+<span class="line"><span style="color:#6A737D">        # レスポンス作成</span></span>
+<span class="line"><span style="color:#E1E4E8">        all_models_dict </span><span style="color:#F97583">=</span><span style="color:#E1E4E8"> {}</span></span>
+<span class="line"><span style="color:#F97583">        for</span><span style="color:#E1E4E8"> model </span><span style="color:#F97583">in</span><span style="color:#E1E4E8"> models:</span></span>
+<span class="line"><span style="color:#E1E4E8">            all_models_dict[model.name] </span><span style="color:#F97583">=</span><span style="color:#E1E4E8"> model.amount</span></span>
+<span class="line"><span style="color:#F97583">        return</span><span style="color:#E1E4E8"> JsonResponse(all_models_dict)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D">    # 新規作成</span></span>
+<span class="line"><span style="color:#F97583">    if</span><span style="color:#E1E4E8"> request.method </span><span style="color:#F97583">==</span><span style="color:#9ECBFF"> 'POST'</span><span style="color:#E1E4E8">:</span></span>
+<span class="line"><span style="color:#6A737D">        # HTTPリクエストbodyのデータをjson形式で取得する</span></span>
+<span class="line"><span style="color:#E1E4E8">        data </span><span style="color:#F97583">=</span><span style="color:#E1E4E8"> json.loads(request.body)</span></span>
+<span class="line"><span style="color:#6A737D">        # `amount`がinputになければ，デフォルト値を代入する</span></span>
+<span class="line"><span style="color:#F97583">        if</span><span style="color:#F97583"> not</span><span style="color:#9ECBFF"> 'amount'</span><span style="color:#F97583"> in</span><span style="color:#E1E4E8"> data:</span></span>
+<span class="line"><span style="color:#E1E4E8">            data[</span><span style="color:#9ECBFF">'amount'</span><span style="color:#E1E4E8">] </span><span style="color:#F97583">=</span><span style="color:#79B8FF"> 1</span></span>
+<span class="line"><span style="color:#6A737D">        # 新規作成</span></span>
+<span class="line"><span style="color:#E1E4E8">        model </span><span style="color:#F97583">=</span><span style="color:#E1E4E8"> DjangoModel(</span><span style="color:#FFAB70">name</span><span style="color:#F97583">=</span><span style="color:#E1E4E8">data[</span><span style="color:#9ECBFF">'name'</span><span style="color:#E1E4E8">], </span><span style="color:#FFAB70">amount</span><span style="color:#F97583">=</span><span style="color:#E1E4E8">data[</span><span style="color:#9ECBFF">'amount'</span><span style="color:#E1E4E8">])</span></span>
+<span class="line"><span style="color:#E1E4E8">        model.save()</span></span>
+<span class="line"><span style="color:#6A737D">        # レスポンス作成</span></span>
+<span class="line"><span style="color:#E1E4E8">        response </span><span style="color:#F97583">=</span><span style="color:#E1E4E8"> HttpResponse(</span><span style="color:#9ECBFF">'created!'</span><span style="color:#E1E4E8">)</span></span>
+<span class="line"><span style="color:#F97583">        return</span><span style="color:#E1E4E8"> response</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D">    # 全て削除</span></span>
+<span class="line"><span style="color:#F97583">    elif</span><span style="color:#E1E4E8"> request.method </span><span style="color:#F97583">==</span><span style="color:#9ECBFF"> 'DELETE'</span><span style="color:#E1E4E8">:</span></span>
+<span class="line"><span style="color:#6A737D">        # レコード削除</span></span>
+<span class="line"><span style="color:#E1E4E8">        DjangoModel.objects.all().delete()</span></span>
+<span class="line"><span style="color:#6A737D">        # レスポンス作成</span></span>
+<span class="line"><span style="color:#E1E4E8">        response </span><span style="color:#F97583">=</span><span style="color:#E1E4E8"> HttpResponse(</span><span style="color:#9ECBFF">'deleted!'</span><span style="color:#E1E4E8">)</span></span>
+<span class="line"><span style="color:#F97583">        return</span><span style="color:#E1E4E8"> response</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D">    # 未実装のHTTP methodへの処理</span></span>
+<span class="line"><span style="color:#F97583">    else</span><span style="color:#E1E4E8">:</span></span>
+<span class="line"><span style="color:#F97583">        return</span><span style="color:#E1E4E8"> HttpResponse(</span><span style="color:#9ECBFF">'Not Implemented.'</span><span style="color:#E1E4E8">)</span></span></code></pre>
+<p>特定のURLにアクセスしたとき，呼び出す処理を記載する．
+<code>~/django_app/crud_app/urls.py</code>を作成する．</p>
+<pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0" data-language="python" data-filename="~/django_app/crud_app/urls.py"><code><span class="line"><span style="color:#F97583">from</span><span style="color:#E1E4E8"> django.urls </span><span style="color:#F97583">import</span><span style="color:#E1E4E8"> include, path</span></span>
+<span class="line"><span style="color:#F97583">from</span><span style="color:#E1E4E8"> .views </span><span style="color:#F97583">import</span><span style="color:#E1E4E8"> control_data</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#E1E4E8">urlpatterns </span><span style="color:#F97583">=</span><span style="color:#E1E4E8"> [</span></span>
+<span class="line"><span style="color:#E1E4E8">    path(</span><span style="color:#9ECBFF">''</span><span style="color:#E1E4E8">, control_data, </span><span style="color:#FFAB70">name</span><span style="color:#F97583">=</span><span style="color:#9ECBFF">'control-data'</span><span style="color:#E1E4E8">),</span></span>
+<span class="line"><span style="color:#E1E4E8">]</span></span></code></pre>
+<p>rootの<code>urls.py</code>から<code>django_app</code>アプリの<code>urls.py</code>へ接続するようにする．
+<code>~/django_app/website/urls.py</code>を編集する．</p>
+<pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0" data-language="python" data-filename="~/django_app/website/urls.py"><code><span class="line"><span style="color:#F97583">from</span><span style="color:#E1E4E8"> django.urls </span><span style="color:#F97583">import</span><span style="color:#E1E4E8"> path, include</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#E1E4E8">urlpatterns </span><span style="color:#F97583">=</span><span style="color:#E1E4E8"> [</span></span>
+<span class="line"><span style="color:#E1E4E8">    path(</span><span style="color:#9ECBFF">'/'</span><span style="color:#E1E4E8">, include(</span><span style="color:#9ECBFF">'django_app.urls'</span><span style="color:#E1E4E8">)),</span></span>
+<span class="line"><span style="color:#E1E4E8">]</span></span></code></pre>
+<p>以上により，簡易なAPIの実装を終えた．
+Djangoアプリの機能がいくつか変更・追記されたので，gunicornを再度起動し，変更を適用する．</p>
+<pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0" data-language="bash"><code><span class="line"><span style="color:#B392F0">pkill</span><span style="color:#9ECBFF"> gunicorn</span></span>
+<span class="line"><span style="color:#B392F0">gunicorn</span><span style="color:#79B8FF"> --bind</span><span style="color:#9ECBFF"> 127.0.0.1:8000</span><span style="color:#9ECBFF"> website.wsgi</span><span style="color:#79B8FF"> -D</span></span></code></pre>
+<h3 id="apiのテスト">APIのテスト</h3>
+<p>実装したAPIが正常に動作確認するために，<code>curl</code>でテストできる．</p>
+<pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0" data-language="bash"><code><span class="line"><span style="color:#6A737D"># コマンド例</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D">## 新規登録</span></span>
+<span class="line"><span style="color:#B392F0">curl</span><span style="color:#79B8FF"> -d</span><span style="color:#9ECBFF"> '{"name": "computer", "amount": 3}'</span><span style="color:#79B8FF"> -H</span><span style="color:#9ECBFF"> 'Content-Type: application/json'</span><span style="color:#9ECBFF"> http://{Your_EC2_IP}/</span></span>
+<span class="line"><span style="color:#B392F0">created!</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D">## 確認</span></span>
+<span class="line"><span style="color:#B392F0">curl</span><span style="color:#9ECBFF"> http://{Your_EC2_IP}/</span></span>
+<span class="line"><span style="color:#E1E4E8">{</span><span style="color:#B392F0">"computer"</span><span style="color:#B392F0">:3}</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D">## 削除</span></span>
+<span class="line"><span style="color:#B392F0">curl</span><span style="color:#79B8FF"> -X</span><span style="color:#9ECBFF"> DELETE</span><span style="color:#9ECBFF"> http://{Your_EC2_IP}/</span></span>
+<span class="line"><span style="color:#B392F0">deleted!</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D">## 確認</span></span>
+<span class="line"><span style="color:#B392F0">curl</span><span style="color:#9ECBFF"> http://{Your_EC2_IP}/</span></span>
+<span class="line"><span style="color:#E1E4E8">{}</span></span></code></pre>
+<h2 id="改善点など">改善点など</h2>
+<p>この記事の設定では，nginxとDjangoはHTTPで通信するが，UNIXソケットを使用するようにすると高速な通信が期待できる．おそらく，多くの同時アクセスを想定する場合は，UNIXソケットを使用した方が良いという予想．他にも改善できる設定は存在すると思うので，勉強中．</p>
+<h2 id="注意">注意</h2>
+<p>この記事は実運用には適しません。セキュリティ面で多くの課題があると思います。例えば、APIへのアクセス制限はしていませんし、HTTPなので通信内容は暗号化されません。</p>
+<h2 id="参考">参考</h2>
+<ul>
+<li><a href="https://docs.djangoproject.com/en/4.1/ref/request-response/">Request and response objects</a> — Django Documentation</li>
+<li><a href="https://man.plustar.jp/django/ref/request-response.html">リクエストとレスポンスのオブジェクト</a> — Django 4.0.6 ドキュメント</li>
+</ul> </div> </article> </div>  </main> <footer data-astro-cid-jo6i4kqk> <div data-astro-cid-jo6i4kqk> <p data-astro-cid-jo6i4kqk>Built with Astro & Lucide.</p> <p data-astro-cid-jo6i4kqk>&copy; 2026 All rights reserved.</p> </div> </footer> </div> </body> </html> <script type="module">for(let e of document.querySelectorAll(`.prose pre`)){let t=e.dataset.filename;if(t){let n=document.createElement(`div`);n.className=`code-block-filename`,n.textContent=t,e.before(n)}if(e.dataset.noCopy===`true`)continue;let n=e.querySelector(`code`);if(!n)continue;let r=document.createElement(`button`);r.type=`button`,r.className=`code-copy-button`,r.textContent=`コピー`,r.setAttribute(`aria-label`,`コードをコピー`),r.title=`コードをコピー`,r.addEventListener(`click`,async()=>{try{await navigator.clipboard.writeText(n.textContent??``),r.textContent=`コピー済み`,r.setAttribute(`aria-label`,`コピーしました`),r.title=`コピーしました`}catch{r.textContent=`コピー失敗`,r.setAttribute(`aria-label`,`コピーに失敗しました`),r.title=`コピーに失敗しました`}window.setTimeout(()=>{r.textContent=`コピー`,r.setAttribute(`aria-label`,`コードをコピー`),r.title=`コードをコピー`},1500)}),e.append(r)}var e=Array.from(document.querySelectorAll(`.table-of-contents a[href^='#']`)).flatMap(e=>{let t=document.getElementById(decodeURIComponent(e.hash.slice(1)));return t?[{link:e,heading:t}]:[]});if(e.length>0){let t=!1,n=()=>{t||(t=!0,window.requestAnimationFrame(()=>{t=!1;let n=Math.min(160,window.innerHeight*.25),r;for(let t of e)if(t.heading.getBoundingClientRect().top<=n)r=t;else break;window.scrollY>0&&window.scrollY+window.innerHeight>=document.documentElement.scrollHeight-2&&(r=e[e.length-1]);for(let t of e)t===r?t.link.setAttribute(`aria-current`,`location`):t.link.removeAttribute(`aria-current`)}))};window.addEventListener(`scroll`,n,{passive:!0}),window.addEventListener(`resize`,n),window.addEventListener(`hashchange`,n),n()}</script>
